@@ -1,0 +1,119 @@
+header{
+    height: 255px;
+    background-image: url("Image/fill_header.jpg");
+    border-bottom: 1px solid black;
+}
+
+.control_bar{
+    padding-left: 70px;
+    padding-top: 191px;
+    height: 88px;
+}
+
+.each_control_in_control_bar{
+    color: white;
+    font-size: 25px;
+    width: 144px;
+    height: 98px;
+    float: left;
+    text-align: center;
+}
+.name_profile{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.launch_web{
+    margin-top: 10px;
+    color: white;
+    width: 300px;
+}
+.img_icon{
+    padding: 5px;
+    float: left;
+}
+.img_launch{
+    width: 5px;
+    height: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    float: left;
+}
+.bound{
+    color: #595959; 
+    background-color: #121212;
+    min-height: 860px;
+    font-size: 13px;
+}
+
+.txt_rem{
+    height:40px;
+    border-bottom: 1px dotted #323232;
+}
+
+.bound_in{
+    margin-left: 75px;
+    width: 660px;
+    height: 780px;
+    border-bottom: 1px dotted #323232;
+    border-top: 1px dotted #323232;
+}
+.bound_in_I{
+    width: 240px;
+    height: 360px;
+    padding-top:45px;
+    margin-top: 115px;
+    background-color: #1F1F1F;
+    float: left;
+}
+
+.bound_in_I_1{
+    width: 190px;
+    height: 280px;
+    padding-top:30px;
+    margin: auto;
+    border-top: 1px solid #7E7E7E;
+}
+
+.bound_in_I_1_txt{
+    height: 145px;
+    border-bottom: 1px solid #2C2C2C;
+}
+.bound_in_underline{
+    text-decoration: underline;
+}
+
+.bound_in_II{
+    height: 530px;
+    width: 395px;
+    margin-left: 300px;	
+    margin-top: 150px;	
+}
+
+.bound_in_II_1{
+    padding-top: 50px;
+}
+
+.gray_div{
+    width: 115px;
+    height: 20px;
+    background-color: #2C2C2C;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.img_design_studio{
+    border: 1px radius #1B1B1B;
+}
+
+.break_line{
+    width: 100%;
+    display: inline-block;
+}
+.to_center{
+    margin: auto;
+}
+
+.last_text{
+    padding-top: 15px;
+    padding-left: 75px;
+}

@@ -1,0 +1,74 @@
+.bound{
+    background-color: white;
+    font-size:15px;
+}
+.note_txt{
+    background-color: #EDEDED;
+    
+}
+.img_inf{
+    padding-right: 10px;
+    float:left;
+    height: 120px;
+    width: 120px;
+}
+.scroll_div{
+    padding-bottom:3px;
+    padding-top:3px;
+    padding-left: 5px;
+    height: 120px;
+    width: 80%;
+    overflow: scroll;
+    background: white;
+    color: #A6120D;
+    boder: 1px solid black;
+}
+
+.bound_facts{
+    padding-left: 30px;
+    height: 200px;
+    background-color: white;
+}
+
+.img_star{
+    height: 15px;
+    width: 15px;
+}
+
+.comment{
+    height: 50px;
+    background-image: url("Image/bound.png");
+}
+.commenter{
+   margin-left: 120px;
+}
+.center{
+   margin-left: 160px;
+}
+.break_line{
+    width: 100%;
+    display: inline-block;
+}
+.blue{
+    color: blue;
+}
+
+.create_comment{
+    height: 250px;
+    width: 500px;
+}
+.th_first{
+    width: 100px;
+}
+.td_second{
+    width: 240px;
+    height: 60px;
+}
+.your_comment{
+    height: 80px;
+    width: 320px;
+}
+td{
+    min-width: 120px;
+}
+

@@ -1,0 +1,149 @@
+header{
+    background-color: #2D2F35;
+    border-bottom: 1px solid #474A51;    
+}
+
+.bound{
+    background-image: url("Image/bg_home_intro.gif");
+    height: 830px;
+    font-family: "Verdana", Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+.bound_1{
+    height: 300px;
+    border-bottom: 1px solid #474A51; 
+}
+.bound_1_img{
+    float: right;
+    height: 264px;
+    padding-right: 150px;
+}
+.title_txt_bound_1{
+   color: yellow;
+   font-size: 25px;
+   padding-left: 130px;
+}
+
+.bound_1_txt{
+    padding-left: 130px;
+    width: 350px;
+    color: #CCCCCC;
+    float: left;
+    font-size: 12px;
+}
+
+.bound_2{
+    height: 150px;
+    border-bottom: 1px solid #474A51;
+}
+.bound_2_img{
+    width: 930px;
+    height: 100px;
+    margin: auto;
+    padding-top: 25px;
+}
+bound_2_img_II{ 
+    float:right;
+    padding-top: 1px;
+}
+.img1{
+    float:left;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 100px;
+    width: 220px;
+    background-image: url("Image/port_thumb_point_progress.jpg");
+}
+.img2{
+    float:left;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 100px;
+    width: 220px;
+    background-image: url("Image/port_thumb_giant_impact.gif");
+}
+.img3{
+    float:left;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 100px;
+    width: 220px;
+    background-image: url("Image/port_thumb_marsh_johnson.jpg");
+}
+.img4{
+    float:left;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 100px;
+    width: 220px;
+    background-image: url("Image/port_thumb_vivio.jpg");
+
+    background-position: top left;
+}
+.img_icon{
+    float: right;
+}
+.bound_3{
+    background-color: 2D2F35;
+    height: 380px;
+    font-size: 13px;
+}
+
+.yellow_text{
+    color: yellow;
+    font-size: 14px;
+    font-weight: bold;
+}
+.bound_3_first{
+    float: left;
+    width: 400px;
+    padding-top: 3px;
+    padding-left: 150px;
+    background-image: url("Image/home_services_bg_design.gif");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.bound_3_center{
+    float: left;
+    width: 200px;
+    height: 380px;
+}
+.bound_3_second{
+    background-image: url("Image/home_services_bg_marketing.gif");
+    background-position: left top;
+    background-repeat: no-repeat;
+    float: left;
+    width: 400px;
+    padding-top: 3px;
+    padding-right: 100px;
+}
+footer{
+    border-top: 1px solid #474A51;
+    background-color: #24262A;
+}
+
+.text_footer{
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    padding-top: 1px;
+}
+.bg_footer{
+    background-image: url("Image/bg_footer.gif");
+    width: 940px;
+    margin: auto;
+    height: 70px;
+}
+.content_text{
+    color: white;
+}
+.break_line{
+    width: 100%;
+    display: inline-block;
+}
+
+.bound_3_second_bg_img{
+    height: 152px;
+    width: 152px;
+}

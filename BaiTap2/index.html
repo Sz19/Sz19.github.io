@@ -1,0 +1,276 @@
+﻿<!DOCTYPE html>
+    <head>
+        <title> Ex2 </title>
+        <link rel = "stylesheet" href = "CssEx2.css">
+        <script language = "javascript" src = "Ex2_Java.js">
+        </script>
+    </head>
+
+    <body>
+        <div class = "bound">
+          <div class = "bound123">
+            <!-- Phần đầu tiên-->
+                <div class = "part1">
+                    <div class = "part1_top">
+                    <div class = "part1_top_1">                
+                        <div class = "part1_background">
+                            <a> 
+                                DAILY CELEBRITY GOSSIP
+                            </a>
+                        </div>    
+                        <div class = "part_in_part1">
+                            <img src = "Image/Pic1.jpg" alt = "Pic 1"/>
+                            <div class = "imgh3"> </div>       
+                            <div> 
+                                <b> + RUSSELL CROWE + MORE</b>
+                                RUSSELL Crowe's son to marry Keith & Nicole daughter, plus Renee Zellweger reveals her breast cancer scare
+                            </div>
+                        </div>
+                    </div>   
+                    <div class = "to_float_right">
+                        <div class = "part1_background">
+                            <a> 
+                                DAILY CELEBRITY PICS 
+                            </a>
+                        </div>
+                        <div class = "part_in_part1">
+                            <img src = "Image/Pic2.jpg" alt = "Pic 2"/>
+                            <div class = "imgh3"> </div>
+                            <b> + BECKHAMS, CLAUDIA SCHIFER </b>
+                            VICTORIA and David Beckhams dine out in NY, as top models Claudia Schieffer and Eva Herzigova shop in Milan 
+                        </div>
+                    </div>
+                </div>
+                <div class = "confidential"> </div>  
+            </div>
+            <!-- Phần đầu tiên--> 
+
+             <!-- Phần thứ hai-->
+            <div class = "part2">
+                <div class = "part2_top"> 
+                    <a> TOP 3 MOVIE TRAILERS </a>
+                </div>
+<!-- The House Bunny -->
+                <div class = "bound_name_of_film">
+                    <div class = "name_of_film">
+                        The House Bunny (M)
+                        <img src = "Image/ToBottom.png" id = "img_houseBunny" class = "to_open_post" onClick = "Request('houseBunny')" alt = "House Bunny"/> 
+                    </div>
+                </div>
+
+                <div id = "houseBunny" class = "film_info_show">
+                    <img src = "Image/0,,6254346,00.jpg" class = "img_size_part2" alt = "icon"/>
+                    <div class = "house_bunny">
+                        When playboy bunny Shelly is tossed out of the manson, she falls in with the sorority girls from Zeta Alpha Zeta 
+                        <p> </p>
+                        <img src = "Image/film-3.png" class = "icon_watch" alt = "icon"/>
+                        <a class = "txt_watch"> Watch Now </a>
+                    </div>
+                </div>
+<!-- End The House Bunny -->
+
+<!-- Eagle Eyes -->
+                <div class = "bound_name_of_film">
+                    <div class = "name_of_film">
+                        Eagle Eyes (M)
+                        <img src = "Image/ToRight.png" id = "img_eagleEye" class = "to_float_right" onClick = "Request('eagleEye')" alt = "icon"/>
+                    </div>
+                 </div>
+                 
+                 <div id = "eagleEye" class = "film_info_hidden">
+                    <img src = "Image/thumb_100x66_216371_216162_2008_eagle_eye_00.jpg" class = "img_size_part2" alt = "House Bunny"/>
+                    <div class = "house_bunny">
+                        SHIA LaBeouf hits the ground running in Eagle Eye, An against the clock conspiracy t...
+                        <p> </p>
+                        <img src = "Image/film-3.png" class = "icon_watch" alt = "icon"/>
+                        <a class = "txt_watch"> Watch Now </a>
+                    </div>
+                </div>
+<!-- End Eagle Eyes -->
+
+
+<!--  Journey To The Centre Of The Earth -->
+                <div class = "bound_name_of_film">
+                    <div class = "name_of_film">
+                        Journey To The Centre Of The Earth (PG)
+                        <img src = "Image/ToRight.png" id = "img_journey"class = "to_float_right" onClick = "Request('journey')" alt = "icon"/>
+                    </div>
+                </div>
+
+                <div id = "journey" class = "film_info_hidden">
+                    <img src = "Image/thumb_100x66_216371_216162_2008_eagle_eye_00.jpg" class = "img_size_part2" alt = "icon"/>
+                    <div class = "house_bunny">
+                        SHIA LaBeouf hits the ground running in Eagle Eye, An against the clock conspiracy t...
+                        <p> </p>
+                        <img src = "Image/film-3.png" class = "icon_watch" alt = "icon"/>
+                        <a class = "txt_watch"> Watch Now </a>
+                    </div>
+                </div>
+<!-- End Journey To The Centre Of The Earth -->
+
+                <div class = "bgcolor_white">
+                    <img src = "Image/now-showing-icon.gif" class = "icon_watch" alt = "icon"/>
+                    <b class = "now_showing">  Now Showing </b>
+                    <select  class = "menu">
+                        <option value="0"> Select movie </option>
+                        <option value="1" onClick = "Request('houseBunny')"> The House Bunny </option>
+                        <option value="2" onClick = "Request('eagleEye')"> Eagle Eye </option>
+                        <option value="3" onClick = "Request('journey')"> Journey To The Centre Of The Earth </option>                                  </select>                     
+                </div> 
+            </div>
+             <!-- Phần thứ hai-->
+
+             <!-- Phần thứ ba-->
+            <div class = "part3">
+                <div class = "part3_top">
+                   <a> MOVIES REVIEW </a>
+                </div>
+                
+                <div class = "reviews">
+                   <div class = "name_of_film">
+                       Eagle Eye
+                       <img src = "Image/25.png" id = "vote_eagle_eyes" onClick= "get_img_id('vote_eagle') "class = "to_float_right" alt = "Vote" usemap = "#Vote_map1"/>
+                   </div>
+                   <div class = "content_of_film">
+                       <img src = "Image/thumb_100x66_216371_216162_2008_eagle_eye_00.jpg" class = "to_float_left" alt = "Eagle Eyes"/>
+                       <div class = "txt_content_of_film">
+                           SHIA LaBeouf hits the ground running in Eagle Eye, An against the clock conspiracy thriller with a timely technological t... 
+                       </div>
+                   </div>
+
+                   <div class = "watch">
+                      <img src = "Image/film-3.png" class = "icon_watch" alt = "icon"/>
+                             <a class = "txt_watch"> Watch Trailer </a>
+                   </div>
+                </div>
+
+                <div class = "reviews">
+                   <div class = "name_of_film">
+                       House Bunny
+                       <img src = "Image/20.png" class = "to_float_right"  id = "vote_house"  alt = "Vote" usemap = "#Vote_map2"/>
+                   </div>
+                   <div class = "content_of_film">
+                       <img src = "Image/thumb_100x66_215784_215698_2008_the_house_bunny.jpg"class = "to_float_left" alt = "House Bunny"/>
+                       <div class = "txt_content_of_film">
+                           IF YOU left Legally Blone and Revenge Of The Nerds DVDs in a darkened room for long enough, something like The House Bun... 
+                       </div>
+                   </div>
+                   <div class = "watch">
+                      <img src = "Image/film-3.png" class = "icon_watch" alt = "icon"/>
+                             <a class = "txt_watch"> Watch Trailer </a>
+                   </div>
+                </div>
+                
+                <map name="Vote_map1">
+                    <area shape="rect" coords="0, 0, 5,10" alt="0.5" onClick = "Vote1(5)">
+                    <area shape="rect" coords="5, 0, 10, 10" alt="1" onClick = "Vote1(10)">
+                    <area shape="rect" coords="10, 0, 15, 10" alt="1.5" onClick = "Vote1(15)">
+                    <area shape="rect" coords="15, 0, 20, 10" alt="2" onClick = "Vote1(20)">
+                    <area shape="rect" coords="20, 0, 25, 10" alt="2.5" onClick = "Vote1(25)">
+                    <area shape="rect" coords="25, 0, 30, 10" alt="3" onClick = "Vote1(30)">
+                    <area shape="rect" coords="30, 0, 35, 10" alt="3.5" onClick = "Vote1(35)">
+                    <area shape="rect" coords="35, 0, 40, 10" alt="4" onClick = "Vote1(40)">
+                    <area shape="rect" coords="40, 0, 45, 10" alt="4.5" onClick = "Vote1(45)">
+                    <area shape="rect" coords="45, 0, 50, 10" alt="5" onClick = "Vote1(50)">
+               </map>
+               <map name="Vote_map2">
+                    <area shape="rect" coords="0, 0, 5,10" alt="0.5" onClick = "Vote2(5)">
+                    <area shape="rect" coords="5, 0, 10, 10" alt="1" onClick = "Vote2(10)">
+                    <area shape="rect" coords="10, 0, 15, 10" alt="1.5" onClick = "Vote2(15)">
+                    <area shape="rect" coords="15, 0, 20, 10" alt="2" onClick = "Vote2(20)">
+                    <area shape="rect" coords="20, 0, 25, 10" alt="2.5" onClick = "Vote2(25)">
+                    <area shape="rect" coords="25, 0, 30, 10" alt="3" onClick = "Vote2(30)">
+                    <area shape="rect" coords="30, 0, 35, 10" alt="3.5" onClick = "Vote2(35)">
+                    <area shape="rect" coords="35, 0, 40, 10" alt="4" onClick = "Vote2(40)">
+                    <area shape="rect" coords="40, 0, 45, 10" alt="4.5" onClick = "Vote2(45)">
+                    <area shape="rect" coords="45, 0, 50, 10" alt="5" onClick = "Vote2(50)">
+               </map>
+
+                <div>
+                    <img src = "Image/settings.png" class = "icon_watch" alt = "Settings"/> 
+                       <div class = "more_movies"> 
+                           + MORE MOVIES
+                       </div> 
+                       <div class = "local_cinema">
+                           Local Cinema listings
+                       </div>
+                   </div>
+                </div>
+           
+            <!-- Phần thứ ba-->
+          </div>
+
+
+          <p>  </p>
+
+            <!-- Phần tìm kiếm -->
+            <div class = "search">
+                <div>    
+                    <div class = "entertainment"> </div> 
+                    <p> </p>
+                    <input type = "text" id="txtSearch" class = "txt_search"/>
+                    <button type = "button" id = "btnSearch" class = "btn_search"> Search</button>
+                </div>
+            </div>
+            <!-- Phần tìm kiếm -->
+
+            <!-- Phần gần dưới cùng -->
+            <div class = "upon_bottom"> 
+
+
+                <div class = "img_in_upon_bottom">
+                    <div class = "img_upon_bot">
+                        <img src = "Image/mobile.png" class = "img_icon_upon_bottom" alt = "Moblie"/> 
+                    </div>
+                    <p> </p>
+                    <div class = "txt_in_upon_bottom"> News on your mobile </div>
+                </div>
+
+                <div class = "img_in_upon_bottom">
+                    <div class = "img_upon_bot">
+                        <img src = "Image/wifi.png" class = "img_icon_upon_bottom" alt = "Wifi"/>
+                    </div>
+                    <p> </p>
+                    <div class = "txt_in_upon_bottom"> RSS feeds </div>
+                </div>
+
+
+                <div class = "img_in_upon_bottom">
+                    <div class = "img_upon_bot">
+                        <img src = "Image/letter.png" class = "img_icon_upon_bottom" alt = "Letter"/>
+                    </div>
+                    <p> </p>
+                    <div class = "txt_in_upon_bottom"> Newsletters </div>
+                </div>
+
+                <div class = "img_in_upon_bottom">
+                    <div class = "img_upon_bot">
+                        <img src = "Image/stories.png" class = "img_icon_upon_bottom" alt = "Stories"/>
+                    </div>
+                    <p> </p>
+                    <div class = "txt_in_upon_bottom"> Send your news stories </div>
+                </div>
+                
+                <div class = "img_in_upon_bottom">
+                    <div class = "img_upon_bot">
+                        <img src = "Image/camera.png" class = "img_icon_upon_bottom" alt = "Camera"/>
+                    </div>
+                    <p> </p>
+                    <div class = "txt_in_upon_bottom"> Send your news photos </div>
+                </div>
+            </div>
+            <!-- Phần gần dưới cùng -->
+
+
+            <!-- Phần dưới cùng -->
+            <div class = "bottom">
+                <div class = "back_top"> Back to top </div>
+                <div>
+                    Help | Contact Us | Advertise with Us | Job Opportunities | Terms & Conditions | Privacy Policy | Accessibility| Sitemap | News Headlines from Our Partners
+                </div>
+                <div> Copyright 2008 News Limited. All times AEST (GMT +10) </div>
+            </div>
+            <!-- Phần dưới cùng -->
+        </div>
+    </body>
+</html>
