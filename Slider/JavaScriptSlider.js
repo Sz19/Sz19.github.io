@@ -22,7 +22,7 @@ function Previous(){
 function LoadBtnIndex(){
     var text_div_index = "";
     for (i = 1; i <= 25; i ++){
-        text_div_index += "<button type = 'button'  id = '" + i + "' class = 'button_in_div_index' onClick = 'GoToIndexImg("+ i +")'>" + i + "</button>";
+        text_div_index += "<img id = '" + i + "' src = 'Image_Slider/" + i + ".jpg' class = 'button_in_div_index' onClick = 'GoToIndexImg("+ i +")'/>";
     }
     document.getElementById("div_index").innerHTML = text_div_index; 
 }
