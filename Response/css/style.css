@@ -7,13 +7,13 @@ ol, ul {list-style: none;}
 caption{font-weight: normal;text-align: left;}
 blockquote:before, blockquote:after,q:before, q:after {content: "";}
 blockquote, q {quotes: "" "";}
-a{ text-decoration:none; font-family:'Lucida Grande','Hiragino Kaku Gothic ProN',Meiryo, sans-serif;}
+a{ text-decoration:none; font-family:'MS PGothic', Arial, 'Hiragino Kaku Gothic ProN', 'Osaka', sans-serif;}
 a img {border: 0;}
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
 
 body {
     color: #73523f;
-    font-family: 'Lucida Grande','Hiragino Kaku Gothic ProN',Meiryo,sans-serif;
+    font-family: "MS PGothic", Arial, "Hiragino Kaku Gothic ProN", "Osaka", sans-serif;
     font-size: 13px;
 	background:#fff;
 }
@@ -1958,7 +1958,7 @@ h4.margin_top_depilation
 /*end Duy*/
 
 /* Pham Hoang Phat */
-h2.introduction_title_hphatsz
+h2.title_hphatsz
 {
 	font-size: 25px;
 	background-image: none;
@@ -1971,7 +1971,7 @@ h2.introduction_title_hphatsz
 	padding-bottom: 10px;
 }
 
-h3.introduction_title_child_hphatsz
+h3.title_child_hphatsz
 {
 	margin-top: 5px;
 	background-color: #D9D9D9;
@@ -2009,10 +2009,20 @@ img.introduction_hphatsz
 {
 	float: right;
 	margin-top: 10px;
+	max-width: 100%;
+	height: auto; 
 }
 img.float_left_hphatsz
 {
 	float: left;
+	max-width: 250px;
+	height: auto; 
+
+}
+.introduction_summary_salon_hphatsz
+{
+	width: 100%;
+	clear: both;
 }
 .introduction_content_hphatsz
 {
@@ -2023,7 +2033,6 @@ img.float_left_hphatsz
 	color: black;
 	clear: both;
 }
-
 .breakline_hphatsz
 {
 	width: 100%;
@@ -2049,16 +2058,154 @@ p.content_hphatsz
 {
 	margin-left: 10px;
 	float: left;
+	color: black;
 }
 
 div.テキスト
 {
-	width: 400px; 
+	font-size: 15px;
+	color: black;
+	width: 440px; 
 	float: right;
 }
 img.view_salon_hphatsz
 {
 	float: left;
 	margin: 5px;
+	max-width: 100%;
+	height: auto; 
 }
+
+h4.content_hphatsz
+{
+	margin: auto;
+	margin-bottom: 20px;
+	font-size: 14px;
+	text-align: left;
+	font-weight: 500;
+	color: black;
+	clear: both;
+	width: 80%;
+	background-image: none;
+
+}
+h3.facial_catalog_hphatsz
+{
+	margin: auto;
+	background-color: #D9D9D9;
+	color: black;
+	text-align: center;	
+	padding-left: 5px;
+	border: none;
+	width: 300px;
+	margin-bottom: 30px;
+}
+
+h3.show_detail_hphatsz
+{
+	margin: auto;
+	background-color: #D9D9D9;
+	color: black;
+	text-align: center;	
+	padding-left: 5px;
+	border: none;
+	width: 240px;
+	margin-bottom: 30px;
+}
+p.facial_content_hphatsz
+{
+	float: left;
+	margin-left: 30px;
+	margin-bottom: 20px;
+	font-size: 15px;
+	text-align: left;
+	font-weight: 600;
+	color: black;
+	clear: both;
+	width: 80%;
+	background-image: none;
+}
+
+img.facial_img_floatleft_hphatsz
+{
+	width: 240px;
+	height: auto;
+	margin-left: 20px;
+	float: left;
+}
+
+img.slim_img_float_left_hphat_sz
+{
+	width: 330px;
+	height: auto;
+	margin-left: 20px;
+	float: left;
+}
+h4.price_hphatsz
+{
+	background-image: none;
+	text-align: center;
+	font-weight: bold;
+	color: black;
+	margin-top: 0px;
+}
+
+.content_therapy_hphatsz
+{
+	clear: both;
+	width: 100%;
+}
+.facial_detail_hphatsz
+{
+	float: left;
+	width: 60%;
+	margin-bottom: 20px;
+}
+.slim_detail_hphatsz
+{
+	float: left;
+	width: 48%;
+	margin-bottom: 20px;
+}
+.goto_top_hphatsz
+{
+	float: right;
+	background-color: #F2F2F2;
+	padding: 5px;
+	clear: both;
+}
+
+a.color_red_hphatsz
+{
+	font-weight: bold;
+	color: red;
+}
+
+p.depilation_content_benefit_hphatsz
+{
+	font-size: 20px;
+	background-image: none;
+	text-align: center;
+	font-weight: 900;
+	color: black;
+	margin-top: 0px;
+	clear: both;
+}
+
+img.img_change
+{
+	float:left;
+	max-width: 100%;
+}
+
+.img_navi_hphatsz
+{
+	margin-top: 90px;
+	width: 79px;
+	height: 72px;
+	float: left;
+	display: block;
+	background: url('../images/bihda/next.png');
+}
+
 /* End Pham Hoang Phat */

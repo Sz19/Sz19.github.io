@@ -707,6 +707,19 @@ p.text_right_depilation
 }
 /*end Duy*/
 
-
-
+/*Pham Hoang Phat*/
+img.img_change
+{
+	float:left;
+}
+.img_navi_hphatsz
+{
+	display: block;
+	margin: auto;
+	background: url('../images/bihda/down.png');
+	width: 79px;
+	height: 72px;
+	margin-left: 100px;
+}
+/*end Phat*/
 }

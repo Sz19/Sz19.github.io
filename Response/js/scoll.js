@@ -17,5 +17,14 @@ $(function() {
 	        return false;
 	    });
 		
+		var btnGoToTop = $('#go_to_top');
+
+		$(window).scroll(function () {
+	        if ($(this).scrollTop() > 100) {
+	            btnGoToTop.fadeIn();
+	        } else {
+	            btnGoToTop.fadeOut();
+	        }
+	    });
 });
 
