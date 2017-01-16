@@ -1,15 +1,16 @@
-﻿<html>
+<html>
     <head>
-        <link rel = "stylesheet" href = "CssSlider.css">
-       <script language = "javascript" src = "JavaScriptSlider.js"> </script>
+        <link rel = "stylesheet" href = "css/css.css">
+        <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+        <script language = "javascript" src = "js/js.js"> </script>
     </head>
 
-    <body onLoad = "LoadNewSlider()">
+    <body>
         <div class = "bound">
             <div class = "to_center"> CHÀO MỪNG ĐẾN VỚI STUDIO ẢNH CỦA MÈO </div>
-            <button type = "button" class = "pre_img" onClick = "Previous()" > </button>
-            <img src = "" id = "image_to_show" class = "bound_img" alt = "Your picture"  onLoad = "SetButtonColor()"> </img>
-            <button type = "button" class = "next_img" onClick = "Next()"> </button>
+            <button type = "button" class = "pre_img" id = "previous" > </button>
+            <img src = "" id="image_to_show" class="bound_img" alt="Your picture"/>
+            <button type = "button" class = "next_img" id = "next"> </button>
             <textview id = "view"> </textview>
             <div class = "div_index" id = "div_index">
             </div>
