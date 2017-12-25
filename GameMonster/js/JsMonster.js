@@ -435,7 +435,7 @@ var main=function() {
 	if(index==5) {
 		update_heightscore();
 		magic.clearRect(0, 0, 600, 550);
-		magic.fillText("Game finish - conratulation", 150, 230);
+		magic.fillText("Game finish - congratulation", 150, 230);
 	} else {
 		if( heart==0) {
 			update_heightscore();
